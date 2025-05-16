@@ -39,8 +39,8 @@ declare module '$env/static/private' {
 	export const NODE: string;
 	export const npm_package_devDependencies__sveltejs_adapter_node: string;
 	export const DESKTOP_SESSION: string;
-	export const HL_INITIAL_WORKSPACE_TOKEN: string;
 	export const KITTY_PID: string;
+	export const HL_INITIAL_WORKSPACE_TOKEN: string;
 	export const NO_AT_BRIDGE: string;
 	export const XDG_SEAT: string;
 	export const PWD: string;
@@ -81,8 +81,8 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies__sveltejs_vite_plugin_svelte: string;
 	export const npm_package_devDependencies_svelte_check: string;
 	export const XDG_SESSION_CLASS: string;
-	export const TERM: string;
 	export const TERMINFO: string;
+	export const TERM: string;
 	export const npm_package_name: string;
 	export const npm_package_devDependencies_jsdom: string;
 	export const npm_package_type: string;
@@ -122,8 +122,8 @@ declare module '$env/static/private' {
 	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
 	export const npm_package_devDependencies_globals: string;
 	export const DBUS_SESSION_BUS_ADDRESS: string;
-	export const NVM_BIN: string;
 	export const MAIL: string;
+	export const NVM_BIN: string;
 	export const npm_config_registry: string;
 	export const KITTY_INSTALLATION_DIR: string;
 	export const npm_node_execpath: string;
@@ -174,8 +174,8 @@ declare module '$env/dynamic/private' {
 		NODE: string;
 		npm_package_devDependencies__sveltejs_adapter_node: string;
 		DESKTOP_SESSION: string;
-		HL_INITIAL_WORKSPACE_TOKEN: string;
 		KITTY_PID: string;
+		HL_INITIAL_WORKSPACE_TOKEN: string;
 		NO_AT_BRIDGE: string;
 		XDG_SEAT: string;
 		PWD: string;
@@ -216,8 +216,8 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies__sveltejs_vite_plugin_svelte: string;
 		npm_package_devDependencies_svelte_check: string;
 		XDG_SESSION_CLASS: string;
-		TERM: string;
 		TERMINFO: string;
+		TERM: string;
 		npm_package_name: string;
 		npm_package_devDependencies_jsdom: string;
 		npm_package_type: string;
@@ -257,8 +257,8 @@ declare module '$env/dynamic/private' {
 		ORIGINAL_XDG_CURRENT_DESKTOP: string;
 		npm_package_devDependencies_globals: string;
 		DBUS_SESSION_BUS_ADDRESS: string;
-		NVM_BIN: string;
 		MAIL: string;
+		NVM_BIN: string;
 		npm_config_registry: string;
 		KITTY_INSTALLATION_DIR: string;
 		npm_node_execpath: string;
