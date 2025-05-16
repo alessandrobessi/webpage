@@ -43,7 +43,7 @@
       "https://unpkg.com/@chrisoakman/chessboard2@0.5.0/dist/chessboard2.min.js"
     );
 
-    board = window.Chessboard2.default(boardEl, {
+    board = window.Chessboard2(boardEl, {
       position: game.fen(),
       draggable: true,
       onDragStart: (source, piece, position, orientation) => {
