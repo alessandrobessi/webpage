@@ -89,7 +89,8 @@
         brain to tackle hard problems is more important now than ever.
       </p>
     </div>
-    <h3>Find the best move for White.</h3>
+    <h3>Find the best moves for White.</h3>
+    <p>Hint: You can win one of the Black bishops.</p>
     <div bind:this={boardEl} class="chessboard"></div>
     <p class="feedback">{moveResult}</p>
   {/if}
@@ -112,11 +113,11 @@
   }
 
   h3 {
-    margin-bottom: 1rem;
+    color: #2c2c2c;
+    margin-bottom: 0;
   }
 
   p {
-    font-weight: bold;
     color: #2c2c2c;
   }
 
