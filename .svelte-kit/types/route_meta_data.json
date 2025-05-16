@@ -1,0 +1,6 @@
+{
+	"/": [],
+	"/api/validate": [
+		"src/routes/api/validate/+server.js"
+	]
+}
