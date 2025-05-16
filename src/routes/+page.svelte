@@ -46,6 +46,10 @@
     board = window.Chessboard2(boardEl, {
       position: game.fen(),
       draggable: true,
+      pieceDraggable: (piece, source, position, orientation) => {
+        // Allow dragging only white pieces
+        return piece.startsWith("w");
+      },
       moveSpeed: "slow",
       snapbackSpeed: 500,
       snapSpeed: 100,
