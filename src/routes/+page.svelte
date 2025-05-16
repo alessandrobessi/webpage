@@ -46,9 +46,9 @@
     board = window.Chessboard2(boardEl, {
       position: game.fen(),
       draggable: true,
-      pieceDraggable: (piece, source, position, orientation) => {
-        // Allow dragging only white pieces
-        return piece.startsWith("w");
+      onDragStart: (source, piece, position, orientation) => {
+        // Prevent dragging of black pieces
+        if (piece.startsWith("b")) return false;
       },
       moveSpeed: "slow",
       snapbackSpeed: 500,
