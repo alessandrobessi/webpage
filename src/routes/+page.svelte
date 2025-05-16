@@ -48,7 +48,7 @@
       draggable: true,
       onDragStart: (source, piece, position, orientation) => {
         // Prevent dragging of black pieces
-        if (piece.startsWith("b")) return false;
+        if (source.piece.startsWith("b")) return false;
       },
       moveSpeed: "slow",
       snapbackSpeed: 500,
