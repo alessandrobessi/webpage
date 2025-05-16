@@ -50,9 +50,9 @@
         // Prevent dragging of black pieces
         if (source.piece.startsWith("b")) return false;
       },
-      moveSpeed: "slow",
-      snapbackSpeed: 500,
-      snapSpeed: 100,
+      moveSpeed: 5,
+      snapbackSpeed: 5,
+      snapSpeed: 5,
       onDrop: async (source, target) => {
         const res = await fetch("/api/validate", {
           method: "POST",

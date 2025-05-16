@@ -37,8 +37,8 @@ declare module '$env/static/private' {
 	export const NODE: string;
 	export const npm_config_verify_deps_before_run: string;
 	export const DESKTOP_SESSION: string;
-	export const KITTY_PID: string;
 	export const HL_INITIAL_WORKSPACE_TOKEN: string;
+	export const KITTY_PID: string;
 	export const NO_AT_BRIDGE: string;
 	export const XDG_SEAT: string;
 	export const PWD: string;
@@ -143,8 +143,8 @@ declare module '$env/dynamic/private' {
 		NODE: string;
 		npm_config_verify_deps_before_run: string;
 		DESKTOP_SESSION: string;
-		KITTY_PID: string;
 		HL_INITIAL_WORKSPACE_TOKEN: string;
+		KITTY_PID: string;
 		NO_AT_BRIDGE: string;
 		XDG_SEAT: string;
 		PWD: string;
