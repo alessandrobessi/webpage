@@ -1,6 +1,7 @@
 <script>
   import { onMount } from "svelte";
   import { Chess } from "chess.js";
+  import * as wasm from "@bessimaestro/wasm-game-of-life";
 
   console.log("Hello there!");
   console.log("Puzzle solution: Rh5, a4, Qh6, axb5");
@@ -108,6 +109,7 @@
     <div class="hidden-content">
       🎉 Congratulations! You've solved the puzzle.
     </div>
+    wasm.greet();
   {/if}
 </div>
 
