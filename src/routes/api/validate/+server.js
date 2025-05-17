@@ -22,7 +22,7 @@ export const POST = async ({ request }) => {
       success: true,
       message: "✅",
       currentPosition: game.fen(),
-      hint: "Hint: Now you can threaten the Black bishop!",
+      hint: "Hint: Now you can threaten Black's bishop!",
     });
   } else if (
     userMove.position ==
