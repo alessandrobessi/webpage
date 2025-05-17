@@ -1,6 +1,7 @@
 <script>
   import { onMount } from "svelte";
   import { Chess } from "chess.js";
+  import * as wasm from "@bessimaestro/wasm-game-of-life";
 
   console.log("Hello there!");
   console.log("Puzzle solution: Rh5, a4, Qh6, axb5");
@@ -10,6 +11,10 @@
   let moveResult = "";
   let boardEl;
   let board;
+
+  $: if (puzzleSolved) {
+    wasm.greet(); // <-- or call here reactively when puzzleSolved becomes true
+  }
 
   let game = new Chess(
     "r4r1k/3qb2n/p2p1pQ1/1bpR4/2p1P3/2N2N1P/PP3PP1/3R2K1 w - - 0 1"
@@ -108,10 +113,6 @@
     <div class="hidden-content">
       🎉 Congratulations! You've solved the puzzle.
     </div>
-    <script>
-      import * as wasm from "@bessimaestro/wasm-game-of-life";
-      wasm.greet();
-    </script>
   {/if}
 </div>
 
