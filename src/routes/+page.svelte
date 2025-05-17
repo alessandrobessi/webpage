@@ -1,7 +1,6 @@
 <script>
   import { onMount } from "svelte";
   import { Chess } from "chess.js";
-  import * as wasm from "@bessimaestro/wasm-game-of-life";
 
   console.log("Hello there!");
   console.log("Puzzle solution: Rh5, a4, Qh6, axb5");
@@ -69,6 +68,8 @@
 
         if (success) {
           puzzleSolved = message === "Puzzle solved!";
+
+          const wasm = await import("@bessimaestro/wasm-game-of-life");
           wasm.greet();
         }
 
