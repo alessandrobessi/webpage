@@ -2,6 +2,9 @@
   import { onMount } from "svelte";
   import { Chess } from "chess.js";
 
+  console.log("Hello there!");
+  console.log("Puzzle solution: Rh5, a4, Qh6, axb5");
+
   let puzzleSolved = false;
   let hintMessage = "Hint: You can threaten checkmate using a rook.";
   let moveResult = "";
@@ -61,10 +64,7 @@
           body: JSON.stringify({ source, target, position: game.fen() }),
         });
 
-        console.log("ok");
         const { success, message, currentPosition, hint } = await res.json();
-
-        console.log(hint);
 
         if (success) {
           puzzleSolved = message === "Puzzle solved!";
