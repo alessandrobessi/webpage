@@ -7,8 +7,6 @@ const initialPosition =
 export const POST = async ({ request }) => {
   const userMove = await request.json();
 
-  console.log(userMove);
-
   if (
     userMove.position ==
       "r4r1k/3qb2n/p2p1pQ1/1bpR4/2p1P3/2N2N1P/PP3PP1/3R2K1 w - - 0 1" &&
@@ -24,6 +22,7 @@ export const POST = async ({ request }) => {
       success: true,
       message: "✅",
       currentPosition: game.fen(),
+      hint: "Hint: Now you can threaten the Black bishop!",
     });
   } else if (
     userMove.position ==
@@ -41,6 +40,7 @@ export const POST = async ({ request }) => {
       success: true,
       message: "✅ ✅",
       currentPosition: game.fen(),
+      hint: "Hint: Your Queen is under attack!",
     });
   } else if (
     userMove.position ==
@@ -57,6 +57,7 @@ export const POST = async ({ request }) => {
       success: true,
       message: "✅ ✅ ✅",
       currentPosition: game.fen(),
+      hint: "Hint: Black can say goodbye to his bishop.",
     });
   } else if (
     userMove.position ==
@@ -73,12 +74,14 @@ export const POST = async ({ request }) => {
       success: true,
       message: "Puzzle solved!",
       currentPosition: game.fen(),
+      hint: "",
     });
   } else {
     return json({
       success: false,
       message: "Incorrect move. Try again.",
       currentPosition: initialPosition,
+      hint: "Hint: You can threaten checkmate using a rook.",
     });
   }
 };

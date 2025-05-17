@@ -3,6 +3,7 @@
   import { Chess } from "chess.js";
 
   let puzzleSolved = false;
+  let hintMessage = "Hint: You can threaten checkmate using a rook.";
   let moveResult = "";
   let boardEl;
   let board;
@@ -60,7 +61,10 @@
           body: JSON.stringify({ source, target, position: game.fen() }),
         });
 
-        const { success, message, currentPosition } = await res.json();
+        console.log("ok");
+        const { success, message, currentPosition, hint } = await res.json();
+
+        console.log(hint);
 
         if (success) {
           puzzleSolved = message === "Puzzle solved!";
@@ -69,6 +73,7 @@
         moveResult = message;
         board.setPosition(currentPosition, true);
         game = new Chess(currentPosition);
+        hintMessage = hint;
       },
     });
 
@@ -94,7 +99,7 @@
       </p>
     </div>
     <h3>Find the best moves for White.</h3>
-    <p>Hint: You can win one of the Black bishops.</p>
+    <p class="hint">{hintMessage}</p>
     <div bind:this={boardEl} class="chessboard"></div>
     <p class="feedback">{moveResult}</p>
   {/if}
@@ -122,6 +127,10 @@
   }
 
   p {
+    color: #2c2c2c;
+  }
+
+  .hint {
     color: #2c2c2c;
   }
 
