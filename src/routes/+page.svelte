@@ -68,7 +68,9 @@
 
         if (success) {
           puzzleSolved = message === "Puzzle solved!";
+        }
 
+        if (puzzleSolved == true) {
           const wasm = await import("@bessimaestro/wasm-game-of-life");
           wasm.greet();
         }
