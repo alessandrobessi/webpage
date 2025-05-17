@@ -1,6 +1,7 @@
 import { e as escape_html } from "../../chunks/escaping.js";
 import { c as pop, p as push } from "../../chunks/index2.js";
 import { Chess } from "chess.js";
+import "@bessimaestro/wasm-game-of-life";
 function _page($$payload, $$props) {
   push();
   console.log("Hello there!");
