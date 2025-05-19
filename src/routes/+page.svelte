@@ -71,12 +71,7 @@
         }
 
         if (puzzleSolved == true) {
-          const init = (
-            await import(
-              "@bessimaestro/wasm-game-of-life/pkg/wasm_game_of_life.js"
-            )
-          ).default;
-          const wasm = await init(); // this is the actual init call that loads the WASM
+          const wasm = await import("@bessimaestro/wasm-game-of-life");
 
           console.log(wasm);
 
