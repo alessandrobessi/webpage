@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@bessimaestro/wasm-game-of-life':
-        specifier: 0.2.8
-        version: 0.2.8
+        specifier: 0.2.9
+        version: 0.2.9
       chess.js:
         specifier: ^1.2.0
         version: 1.2.0
@@ -106,8 +106,8 @@ packages:
     resolution: {integrity: sha512-6zABk/ECA/QYSCQ1NGiVwwbQerUCZ+TQbp64Q3AgmfNvurHH0j8TtXa1qbShXA6qqkpAj4V5W8pP6mLe1mcMqA==}
     engines: {node: '>=18'}
 
-  '@bessimaestro/wasm-game-of-life@0.2.8':
-    resolution: {integrity: sha512-QlMGMUakdt0LS9KR+eP0XTplvnKJkEauHz1rA6eKPMDJcZObNeNgl3htf5foaMKbXLcPJ+9LcAEBiUVX4hlS2g==}
+  '@bessimaestro/wasm-game-of-life@0.2.9':
+    resolution: {integrity: sha512-j6ChAYvNYeDlIQ03bKcOmbGO33kRuV7zBQZEZk5rDSreFZOlUJ5+4XyWzkpUgBegnKWG2duNPX4jUPUOSI1n6w==}
 
   '@csstools/color-helpers@5.0.2':
     resolution: {integrity: sha512-JqWH1vsgdGcw2RR6VliXXdA0/59LttzlU8UlRT/iUUsEeWfYq8I+K0yhihEUTTHLRm1EXvpsCx3083EU15ecsA==}
@@ -2101,7 +2101,7 @@ snapshots:
 
   '@bcoe/v8-coverage@1.0.2': {}
 
-  '@bessimaestro/wasm-game-of-life@0.2.8': {}
+  '@bessimaestro/wasm-game-of-life@0.2.9': {}
 
   '@csstools/color-helpers@5.0.2': {}
 
