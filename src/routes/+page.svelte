@@ -82,6 +82,7 @@
           wasm.__wbg_set_wasm(wasmMod);
 
           console.log(wasm);
+          console.log(wasmMod);
 
           const CELL_SIZE = 5; // px
 
@@ -137,7 +138,7 @@
           const drawCells = () => {
             const cellsPtr = universe.cells();
             const cells = new Uint8Array(
-              wasm.memory.buffer,
+              wasmMod.memory.buffer,
               cellsPtr,
               width * height
             );
