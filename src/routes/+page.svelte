@@ -72,10 +72,7 @@
 
         if (puzzleSolved == true) {
           const wasm = await import("@bessimaestro/wasm-game-of-life");
-          const memory = await import(
-            "@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg"
-          );
-          console.log(memory);
+          console.log(wasm);
           console.log(wasm.memory);
 
           const CELL_SIZE = 5; // px

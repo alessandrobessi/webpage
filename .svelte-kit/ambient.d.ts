@@ -124,8 +124,8 @@ declare module '$env/static/private' {
 	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
 	export const npm_package_devDependencies_globals: string;
 	export const DBUS_SESSION_BUS_ADDRESS: string;
-	export const NVM_BIN: string;
 	export const MAIL: string;
+	export const NVM_BIN: string;
 	export const npm_config_registry: string;
 	export const npm_package_dependencies__bessimaestro_wasm_game_of_life: string;
 	export const KITTY_INSTALLATION_DIR: string;
@@ -262,8 +262,8 @@ declare module '$env/dynamic/private' {
 		ORIGINAL_XDG_CURRENT_DESKTOP: string;
 		npm_package_devDependencies_globals: string;
 		DBUS_SESSION_BUS_ADDRESS: string;
-		NVM_BIN: string;
 		MAIL: string;
+		NVM_BIN: string;
 		npm_config_registry: string;
 		npm_package_dependencies__bessimaestro_wasm_game_of_life: string;
 		KITTY_INSTALLATION_DIR: string;
