@@ -130,7 +130,7 @@
           const drawCells = () => {
             const cellsPtr = universe.cells();
             const cells = new Uint8Array(
-              memory.buffer,
+              memory.memory.buffer,
               cellsPtr,
               width * height
             );
