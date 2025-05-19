@@ -75,6 +75,7 @@
           const memory = await import(
             "@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg"
           );
+          console.log(memory);
 
           const CELL_SIZE = 5; // px
 
@@ -130,7 +131,7 @@
           const drawCells = () => {
             const cellsPtr = universe.cells();
             const cells = new Uint8Array(
-              memory.memory.buffer,
+              wasm.memory.buffer,
               cellsPtr,
               width * height
             );
