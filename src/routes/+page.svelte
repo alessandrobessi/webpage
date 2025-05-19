@@ -71,6 +71,9 @@
         }
 
         if (puzzleSolved == true) {
+          const init = await import("@bessimaestro/wasm-game-of-life");
+          await init(); // this initializes the WASM runtime
+
           const wasm = await import("@bessimaestro/wasm-game-of-life");
           await wasm.default();
           console.log(wasm);
