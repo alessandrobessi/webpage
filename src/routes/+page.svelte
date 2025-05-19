@@ -72,6 +72,7 @@
 
         if (puzzleSolved == true) {
           const wasm = await import("@bessimaestro/wasm-game-of-life");
+          console.log(wasm);
           const pre = document.getElementById("game-of-life-canvas");
           const universe = wasm.Universe.new();
 
