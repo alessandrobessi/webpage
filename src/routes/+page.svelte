@@ -81,14 +81,11 @@
 
           wasm.__wbg_set_wasm(wasmMod);
 
-          console.log(wasm);
-          console.log(wasmMod);
+          const CELL_SIZE = 10; // px
 
-          const CELL_SIZE = 5; // px
-
-          const GRID_COLOR = "#CCCCCC";
-          const DEAD_COLOR = "#FFFFFF";
-          const ALIVE_COLOR = "#000000";
+          const GRID_COLOR = "#2c2c2c";
+          const DEAD_COLOR = "#fefae0";
+          const ALIVE_COLOR = "#f892c5";
 
           // Construct the universe, and get its width and height.
           const universe = wasm.Universe.new();
@@ -207,7 +204,7 @@
     <div class="hidden-content">
       🎉 Congratulations! You've solved the puzzle.
     </div>
-    <canvas id="game-of-life-canvas"></canvas>
+    <canvas class="game-of-life" id="game-of-life-canvas"></canvas>
   {/if}
 </div>
 
@@ -288,5 +285,9 @@
     border: 2px solid #f892c5;
     padding: 1em;
     color: #2c2c2c;
+  }
+
+  .game-of-life {
+    margin: 10px;
   }
 </style>
