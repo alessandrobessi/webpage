@@ -142,7 +142,7 @@
                 const idx = getIndex(row, col);
 
                 ctx.fillStyle =
-                  cells[idx] === Cell.Dead ? DEAD_COLOR : ALIVE_COLOR;
+                  cells[idx] === wasm.Cell.Dead ? DEAD_COLOR : ALIVE_COLOR;
 
                 ctx.fillRect(
                   col * (CELL_SIZE + 1) + 1,
