@@ -1,6 +1,6 @@
 {
   ".svelte-kit/generated/client-optimized/app.js": {
-    "file": "_app/immutable/entry/app.eC0ygiVB.js",
+    "file": "_app/immutable/entry/app.CQG_ZLSs.js",
     "name": "entry/app",
     "src": ".svelte-kit/generated/client-optimized/app.js",
     "isEntry": true,
@@ -29,7 +29,7 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/1.js": {
-    "file": "_app/immutable/nodes/1.Bdc1oEGV.js",
+    "file": "_app/immutable/nodes/1.fr00HXoq.js",
     "name": "nodes/1",
     "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
     "isEntry": true,
@@ -39,11 +39,11 @@
       "_C2rsjJyC.js",
       "_75EMG3Uh.js",
       "_CrSiB_9q.js",
-      "_Bo5zggLd.js"
+      "_-L_xjRlo.js"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/2.js": {
-    "file": "_app/immutable/nodes/2.CpoOI52J.js",
+    "file": "_app/immutable/nodes/2.Cx_zz8Vb.js",
     "name": "nodes/2",
     "src": ".svelte-kit/generated/client-optimized/nodes/2.js",
     "isEntry": true,
@@ -57,11 +57,19 @@
       "_BCr4zGHm.js"
     ],
     "dynamicImports": [
-      "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.7/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.wasm",
-      "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.7/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.js"
+      "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.8/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.wasm",
+      "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.8/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.js"
     ],
     "css": [
-      "_app/immutable/assets/2.Dec5Ex8Z.css"
+      "_app/immutable/assets/2.DJY0by4a.css"
+    ]
+  },
+  "_-L_xjRlo.js": {
+    "file": "_app/immutable/chunks/-L_xjRlo.js",
+    "name": "entry",
+    "imports": [
+      "_75EMG3Uh.js",
+      "_BCr4zGHm.js"
     ]
   },
   "_75EMG3Uh.js": {
@@ -80,14 +88,6 @@
     "name": "disclose-version",
     "imports": [
       "_75EMG3Uh.js"
-    ]
-  },
-  "_Bo5zggLd.js": {
-    "file": "_app/immutable/chunks/Bo5zggLd.js",
-    "name": "entry",
-    "imports": [
-      "_75EMG3Uh.js",
-      "_BCr4zGHm.js"
     ]
   },
   "_Bqm4yP9Y.js": {
@@ -112,31 +112,31 @@
       "_BE8XQIoG.js"
     ]
   },
-  "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.7/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.js": {
+  "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.8/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.js": {
     "file": "_app/immutable/chunks/ByBGmzSQ.js",
     "name": "wasm_game_of_life_bg",
-    "src": "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.7/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.js",
+    "src": "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.8/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.js",
     "isDynamicEntry": true
   },
-  "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.7/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.wasm": {
-    "file": "_app/immutable/chunks/BA1yML3B.js",
+  "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.8/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.wasm": {
+    "file": "_app/immutable/chunks/DkrwbmKk.js",
     "name": "wasm_game_of_life_bg",
-    "src": "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.7/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.wasm",
+    "src": "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.8/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.wasm",
     "isDynamicEntry": true,
     "imports": [
-      "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.7/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.js"
+      "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.8/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.js"
     ],
     "assets": [
-      "_app/immutable/assets/wasm_game_of_life_bg.BrdPH12u.wasm"
+      "_app/immutable/assets/wasm_game_of_life_bg.LGpWP3BK.wasm"
     ]
   },
   "node_modules/.pnpm/@sveltejs+kit@2.21.0_@sveltejs+vite-plugin-svelte@5.0.3_svelte@5.28.6_vite@6.0.0__svelte@5.28.6_vite@6.0.0/node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
-    "file": "_app/immutable/entry/start.D3WhsZUt.js",
+    "file": "_app/immutable/entry/start.DGn-24il.js",
     "name": "entry/start",
     "src": "node_modules/.pnpm/@sveltejs+kit@2.21.0_@sveltejs+vite-plugin-svelte@5.0.3_svelte@5.28.6_vite@6.0.0__svelte@5.28.6_vite@6.0.0/node_modules/@sveltejs/kit/src/runtime/client/entry.js",
     "isEntry": true,
     "imports": [
-      "_Bo5zggLd.js"
+      "_-L_xjRlo.js"
     ]
   }
 }
