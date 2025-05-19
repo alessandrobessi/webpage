@@ -71,9 +71,9 @@
         }
 
         if (puzzleSolved == true) {
-          const Universe = await import("@bessimaestro/wasm-game-of-life");
+          const wasm = await import("@bessimaestro/wasm-game-of-life");
           const pre = document.getElementById("game-of-life-canvas");
-          const universe = Universe.new();
+          const universe = wasm.Universe.new();
 
           const renderLoop = () => {
             pre.textContent = universe.render();
