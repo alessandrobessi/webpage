@@ -71,7 +71,15 @@
         }
 
         if (puzzleSolved == true) {
-          const wasm = await import("@bessimaestro/wasm-game-of-life");
+          const wasmMod = await import(
+            "@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.wasm"
+          );
+
+          const wasm = await import(
+            "@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.js"
+          );
+
+          wasm.__wbg_set_wasm(wasmMod);
 
           console.log(wasm);
 

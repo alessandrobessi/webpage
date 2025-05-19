@@ -8,4 +8,7 @@ export default defineConfig({
   build: {
     target: "esnext", // Enables top-level await and modern features
   },
+  optimizeDeps: {
+    exclude: ["@bessimaestro/wasm-game-of-life"], // evita pre-bundling
+  },
 });
