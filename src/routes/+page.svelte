@@ -71,8 +71,18 @@
         }
 
         if (puzzleSolved == true) {
-          const wasm = await import("@bessimaestro/wasm-game-of-life");
-          wasm.greet();
+          const Universe = await import("@bessimaestro/wasm-game-of-life");
+          const pre = document.getElementById("game-of-life-canvas");
+          const universe = Universe.new();
+
+          const renderLoop = () => {
+            pre.textContent = universe.render();
+            universe.tick();
+
+            requestAnimationFrame(renderLoop);
+          };
+
+          requestAnimationFrame(renderLoop);
         }
 
         moveResult = message;
@@ -113,6 +123,7 @@
     <div class="hidden-content">
       🎉 Congratulations! You've solved the puzzle.
     </div>
+    <pre id="game-of-life-canvas"></pre>
   {/if}
 </div>
 

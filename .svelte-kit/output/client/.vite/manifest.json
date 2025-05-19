@@ -1,15 +1,15 @@
 {
   ".svelte-kit/generated/client-optimized/app.js": {
-    "file": "_app/immutable/entry/app.CZWypbrk.js",
+    "file": "_app/immutable/entry/app.Dp1X1nxm.js",
     "name": "entry/app",
     "src": ".svelte-kit/generated/client-optimized/app.js",
     "isEntry": true,
     "imports": [
-      "_VnKtvPWD.js",
-      "_GolhScvZ.js",
-      "_BR9drO80.js",
-      "_PYsbZxsr.js",
-      "_BQCMUEkA.js"
+      "_Bqm4yP9Y.js",
+      "_75EMG3Uh.js",
+      "_CrSiB_9q.js",
+      "_BE8XQIoG.js",
+      "_BCr4zGHm.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/client-optimized/nodes/0.js",
@@ -18,103 +18,119 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/0.js": {
-    "file": "_app/immutable/nodes/0.DVNhHAnJ.js",
+    "file": "_app/immutable/nodes/0.BLwQ4Czw.js",
     "name": "nodes/0",
     "src": ".svelte-kit/generated/client-optimized/nodes/0.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_BR9drO80.js",
-      "_VnKtvPWD.js"
+      "_BE8XQIoG.js",
+      "_75EMG3Uh.js"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/1.js": {
-    "file": "_app/immutable/nodes/1.BjmR3iyM.js",
+    "file": "_app/immutable/nodes/1.B48Yp42a.js",
     "name": "nodes/1",
     "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_BR9drO80.js",
-      "_Bz4jXzX4.js",
-      "_VnKtvPWD.js",
-      "_GolhScvZ.js",
-      "_C-3eoQpO.js"
+      "_BE8XQIoG.js",
+      "_C2rsjJyC.js",
+      "_75EMG3Uh.js",
+      "_CrSiB_9q.js",
+      "_ESdLhv7Q.js"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/2.js": {
-    "file": "_app/immutable/nodes/2.Bf_x8U7n.js",
+    "file": "_app/immutable/nodes/2.BpKuLFAC.js",
     "name": "nodes/2",
     "src": ".svelte-kit/generated/client-optimized/nodes/2.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_BR9drO80.js",
-      "_Bz4jXzX4.js",
-      "_VnKtvPWD.js",
-      "_GolhScvZ.js",
-      "_PYsbZxsr.js",
-      "_BQCMUEkA.js"
+      "_Bqm4yP9Y.js",
+      "_BE8XQIoG.js",
+      "_C2rsjJyC.js",
+      "_75EMG3Uh.js",
+      "_CrSiB_9q.js",
+      "_BCr4zGHm.js"
+    ],
+    "dynamicImports": [
+      "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.0/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life.js"
     ],
     "css": [
       "_app/immutable/assets/2.Dec5Ex8Z.css"
     ]
   },
-  "_BQCMUEkA.js": {
-    "file": "_app/immutable/chunks/BQCMUEkA.js",
-    "name": "index-client",
-    "imports": [
-      "_VnKtvPWD.js"
-    ]
-  },
-  "_BR9drO80.js": {
-    "file": "_app/immutable/chunks/BR9drO80.js",
-    "name": "disclose-version",
-    "imports": [
-      "_VnKtvPWD.js"
-    ]
-  },
-  "_Bz4jXzX4.js": {
-    "file": "_app/immutable/chunks/Bz4jXzX4.js",
-    "name": "legacy",
-    "imports": [
-      "_VnKtvPWD.js"
-    ]
-  },
-  "_C-3eoQpO.js": {
-    "file": "_app/immutable/chunks/C-3eoQpO.js",
-    "name": "entry",
-    "imports": [
-      "_VnKtvPWD.js",
-      "_BQCMUEkA.js"
-    ]
-  },
-  "_GolhScvZ.js": {
-    "file": "_app/immutable/chunks/GolhScvZ.js",
-    "name": "render",
-    "imports": [
-      "_VnKtvPWD.js",
-      "_BR9drO80.js"
-    ]
-  },
-  "_PYsbZxsr.js": {
-    "file": "_app/immutable/chunks/PYsbZxsr.js",
-    "name": "this",
-    "imports": [
-      "_VnKtvPWD.js"
-    ]
-  },
-  "_VnKtvPWD.js": {
-    "file": "_app/immutable/chunks/VnKtvPWD.js",
+  "_75EMG3Uh.js": {
+    "file": "_app/immutable/chunks/75EMG3Uh.js",
     "name": "runtime"
   },
+  "_BCr4zGHm.js": {
+    "file": "_app/immutable/chunks/BCr4zGHm.js",
+    "name": "index-client",
+    "imports": [
+      "_75EMG3Uh.js"
+    ]
+  },
+  "_BE8XQIoG.js": {
+    "file": "_app/immutable/chunks/BE8XQIoG.js",
+    "name": "disclose-version",
+    "imports": [
+      "_75EMG3Uh.js"
+    ]
+  },
+  "_Bqm4yP9Y.js": {
+    "file": "_app/immutable/chunks/Bqm4yP9Y.js",
+    "name": "preload-helper",
+    "imports": [
+      "_75EMG3Uh.js"
+    ]
+  },
+  "_C2rsjJyC.js": {
+    "file": "_app/immutable/chunks/C2rsjJyC.js",
+    "name": "legacy",
+    "imports": [
+      "_75EMG3Uh.js"
+    ]
+  },
+  "_CrSiB_9q.js": {
+    "file": "_app/immutable/chunks/CrSiB_9q.js",
+    "name": "render",
+    "imports": [
+      "_75EMG3Uh.js",
+      "_BE8XQIoG.js"
+    ]
+  },
+  "_ESdLhv7Q.js": {
+    "file": "_app/immutable/chunks/ESdLhv7Q.js",
+    "name": "entry",
+    "imports": [
+      "_75EMG3Uh.js",
+      "_BCr4zGHm.js"
+    ]
+  },
+  "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.0/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life.js": {
+    "file": "_app/immutable/chunks/LrtXRKXe.js",
+    "name": "wasm_game_of_life",
+    "src": "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.0/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life.js",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/wasm_game_of_life_bg.rokmavgq.wasm"
+    ]
+  },
+  "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.0/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.wasm": {
+    "file": "_app/immutable/assets/wasm_game_of_life_bg.rokmavgq.wasm",
+    "src": "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.0/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.wasm"
+  },
   "node_modules/.pnpm/@sveltejs+kit@2.21.0_@sveltejs+vite-plugin-svelte@5.0.3_svelte@5.28.6_vite@6.0.0__svelte@5.28.6_vite@6.0.0/node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
-    "file": "_app/immutable/entry/start.SX8xXACr.js",
+    "file": "_app/immutable/entry/start.SklTFsgN.js",
     "name": "entry/start",
     "src": "node_modules/.pnpm/@sveltejs+kit@2.21.0_@sveltejs+vite-plugin-svelte@5.0.3_svelte@5.28.6_vite@6.0.0__svelte@5.28.6_vite@6.0.0/node_modules/@sveltejs/kit/src/runtime/client/entry.js",
     "isEntry": true,
     "imports": [
-      "_C-3eoQpO.js"
+      "_ESdLhv7Q.js"
     ]
   }
 }

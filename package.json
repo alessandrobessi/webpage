@@ -7,7 +7,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@bessimaestro/wasm-game-of-life": "0.1.0",
+    "@bessimaestro/wasm-game-of-life": "0.2.0",
     "chess.js": "^1.2.0"
   },
   "devDependencies": {
