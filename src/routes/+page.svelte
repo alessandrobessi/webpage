@@ -72,8 +72,8 @@
 
         if (puzzleSolved == true) {
           const wasm = await import("@bessimaestro/wasm-game-of-life");
+          await wasm.default();
           console.log(wasm);
-          console.log(wasm.memory);
 
           const CELL_SIZE = 5; // px
 

@@ -39,8 +39,8 @@ declare module '$env/static/private' {
 	export const NODE: string;
 	export const npm_package_devDependencies__sveltejs_adapter_node: string;
 	export const DESKTOP_SESSION: string;
-	export const KITTY_PID: string;
 	export const HL_INITIAL_WORKSPACE_TOKEN: string;
+	export const KITTY_PID: string;
 	export const NO_AT_BRIDGE: string;
 	export const npm_package_devDependencies_vite_plugin_wasm: string;
 	export const XDG_SEAT: string;
@@ -177,8 +177,8 @@ declare module '$env/dynamic/private' {
 		NODE: string;
 		npm_package_devDependencies__sveltejs_adapter_node: string;
 		DESKTOP_SESSION: string;
-		KITTY_PID: string;
 		HL_INITIAL_WORKSPACE_TOKEN: string;
+		KITTY_PID: string;
 		NO_AT_BRIDGE: string;
 		npm_package_devDependencies_vite_plugin_wasm: string;
 		XDG_SEAT: string;
