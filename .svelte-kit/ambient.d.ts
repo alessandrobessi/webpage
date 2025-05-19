@@ -46,8 +46,8 @@ declare module '$env/static/private' {
 	export const XDG_SEAT: string;
 	export const PWD: string;
 	export const npm_package_devDependencies_vite: string;
-	export const XDG_SESSION_DESKTOP: string;
 	export const LOGNAME: string;
+	export const XDG_SESSION_DESKTOP: string;
 	export const QT_QPA_PLATFORMTHEME: string;
 	export const npm_package_devDependencies_chess_js: string;
 	export const XDG_SESSION_TYPE: string;
@@ -83,8 +83,8 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies__sveltejs_vite_plugin_svelte: string;
 	export const npm_package_devDependencies_svelte_check: string;
 	export const XDG_SESSION_CLASS: string;
-	export const TERM: string;
 	export const TERMINFO: string;
+	export const TERM: string;
 	export const npm_package_name: string;
 	export const npm_package_devDependencies_jsdom: string;
 	export const npm_package_type: string;
@@ -184,8 +184,8 @@ declare module '$env/dynamic/private' {
 		XDG_SEAT: string;
 		PWD: string;
 		npm_package_devDependencies_vite: string;
-		XDG_SESSION_DESKTOP: string;
 		LOGNAME: string;
+		XDG_SESSION_DESKTOP: string;
 		QT_QPA_PLATFORMTHEME: string;
 		npm_package_devDependencies_chess_js: string;
 		XDG_SESSION_TYPE: string;
@@ -221,8 +221,8 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies__sveltejs_vite_plugin_svelte: string;
 		npm_package_devDependencies_svelte_check: string;
 		XDG_SESSION_CLASS: string;
-		TERM: string;
 		TERMINFO: string;
+		TERM: string;
 		npm_package_name: string;
 		npm_package_devDependencies_jsdom: string;
 		npm_package_type: string;
