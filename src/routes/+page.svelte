@@ -185,16 +185,16 @@
 </script>
 
 <div class="container">
-
-  <h1 class="hello">
-    Hello!
-  </h1>
-
-  <p class="bio">
-    Nice to e-meet you :)
-  </p>
-
   {#if !puzzleSolved}
+
+    <h1 class="hello">
+      Hello!
+    </h1>
+
+    <p class="bio">
+      Nice to e-meet you :)
+    </p>
+
     <div class="puzzle-message">
       <p>
         In a world increasingly reliant on AI to think for us, I believe it's
@@ -210,7 +210,7 @@
 
   {#if puzzleSolved}
     <div class="hidden-content">
-      🎉 Congratulations! You've solved the puzzle.<br>
+      Congratulations! You've solved the puzzle.<br>
       Enjoy a John Conway's Game of Life realized in WebAssembly.
     </div>
     <canvas class="game-of-life" id="game-of-life-canvas"></canvas>
