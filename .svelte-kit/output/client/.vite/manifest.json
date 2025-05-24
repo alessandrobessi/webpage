@@ -1,6 +1,6 @@
 {
   ".svelte-kit/generated/client-optimized/app.js": {
-    "file": "_app/immutable/entry/app._2lzBcsE.js",
+    "file": "_app/immutable/entry/app.BGPcZnxU.js",
     "name": "entry/app",
     "src": ".svelte-kit/generated/client-optimized/app.js",
     "isEntry": true,
@@ -29,7 +29,7 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/1.js": {
-    "file": "_app/immutable/nodes/1.XILfwBTF.js",
+    "file": "_app/immutable/nodes/1.DsJYWhpg.js",
     "name": "nodes/1",
     "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
     "isEntry": true,
@@ -39,11 +39,11 @@
       "_C2rsjJyC.js",
       "_75EMG3Uh.js",
       "_CrSiB_9q.js",
-      "_BlJkLXcc.js"
+      "_DFZeJYPG.js"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/2.js": {
-    "file": "_app/immutable/nodes/2.Dyr4TiNy.js",
+    "file": "_app/immutable/nodes/2.CfWgnhzZ.js",
     "name": "nodes/2",
     "src": ".svelte-kit/generated/client-optimized/nodes/2.js",
     "isEntry": true,
@@ -61,7 +61,7 @@
       "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.10/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.js"
     ],
     "css": [
-      "_app/immutable/assets/2.DJY0by4a.css"
+      "_app/immutable/assets/2.DeSZUAYd.css"
     ]
   },
   "_75EMG3Uh.js": {
@@ -80,14 +80,6 @@
     "name": "disclose-version",
     "imports": [
       "_75EMG3Uh.js"
-    ]
-  },
-  "_BlJkLXcc.js": {
-    "file": "_app/immutable/chunks/BlJkLXcc.js",
-    "name": "entry",
-    "imports": [
-      "_75EMG3Uh.js",
-      "_BCr4zGHm.js"
     ]
   },
   "_Bqm4yP9Y.js": {
@@ -112,6 +104,14 @@
       "_BE8XQIoG.js"
     ]
   },
+  "_DFZeJYPG.js": {
+    "file": "_app/immutable/chunks/DFZeJYPG.js",
+    "name": "entry",
+    "imports": [
+      "_75EMG3Uh.js",
+      "_BCr4zGHm.js"
+    ]
+  },
   "node_modules/.pnpm/@bessimaestro+wasm-game-of-life@0.2.10/node_modules/@bessimaestro/wasm-game-of-life/wasm_game_of_life_bg.js": {
     "file": "_app/immutable/chunks/BVvpQrtB.js",
     "name": "wasm_game_of_life_bg",
@@ -131,12 +131,12 @@
     ]
   },
   "node_modules/.pnpm/@sveltejs+kit@2.21.0_@sveltejs+vite-plugin-svelte@5.0.3_svelte@5.28.6_vite@6.0.0__svelte@5.28.6_vite@6.0.0/node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
-    "file": "_app/immutable/entry/start.DsDsjaCb.js",
+    "file": "_app/immutable/entry/start.BD9KI6rd.js",
     "name": "entry/start",
     "src": "node_modules/.pnpm/@sveltejs+kit@2.21.0_@sveltejs+vite-plugin-svelte@5.0.3_svelte@5.28.6_vite@6.0.0__svelte@5.28.6_vite@6.0.0/node_modules/@sveltejs/kit/src/runtime/client/entry.js",
     "isEntry": true,
     "imports": [
-      "_BlJkLXcc.js"
+      "_DFZeJYPG.js"
     ]
   }
 }
