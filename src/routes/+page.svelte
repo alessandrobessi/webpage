@@ -214,7 +214,7 @@
 
   {#if puzzleSolved}
     <div class="hidden-content">
-      🎉 Congratulations! You've solved the puzzle.
+      🎉 Congratulations! You've solved the puzzle.<\br>
       Enjoy a John Conway's Game of Life realized in WebAssembly.
     </div>
     <canvas class="game-of-life" id="game-of-life-canvas"></canvas>
@@ -302,5 +302,14 @@
 
   .game-of-life {
     margin: 10px;
+  }
+
+  .bio {
+    max-width: 400px;
+    background-color: #fefae0;
+    border: 2px solid #f892c5;
+    padding: 1em;
+    font-size: 0.8rem;
+    color: #2c2c2c;
   }
 </style>
