@@ -310,7 +310,6 @@
   .bio {
     max-width: 400px;
     padding: 1em;
-    font-size: 0.8rem;
     color: #2c2c2c;
   }
 </style>
