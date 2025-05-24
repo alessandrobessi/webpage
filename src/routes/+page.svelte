@@ -185,12 +185,24 @@
 </script>
 
 <div class="container">
+
+  <p class="bio">
+    Data scientist with international experience leading complex 
+    machine learning initiatives, from infrastructure to modeling. 
+    Full-remote worker. Mensa member.
+
+    Avid reader, average chess player, mediocre pianist, terrible bassist,
+     awful electronic music composer, and wannabe professional sleeper.
+
+    Former academic researcher on misinformation in online social networks:
+    <a href="https://scholar.google.com/citations?user=4QiUu3AAAAAJ&hl=en">Google Scholar</a> 
+  </p>
+
   {#if !puzzleSolved}
     <div class="puzzle-message">
       <p>
         In a world increasingly reliant on AI to think for us, I believe it's
-        vital to keep our minds sharp by embracing challenges. Before you access
-        the content, you'll need to solve a chess puzzle—because training your
+        vital to keep our minds sharp by embracing challenges. Training your
         brain to tackle hard problems is more important now than ever.
       </p>
     </div>
@@ -203,6 +215,7 @@
   {#if puzzleSolved}
     <div class="hidden-content">
       🎉 Congratulations! You've solved the puzzle.
+      Enjoy a John Conway's Game of Life realized in WebAssembly.
     </div>
     <canvas class="game-of-life" id="game-of-life-canvas"></canvas>
   {/if}
