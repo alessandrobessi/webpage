@@ -186,9 +186,9 @@
 
 <div class="container">
 
-  <p class="hello">
+  <h1 class="hello">
     Hello!
-  </p>
+  </h1>
 
   <p class="bio">
     Nice to e-meet you :)
@@ -302,7 +302,6 @@
 
   .hello {
     max-width: 400px;
-    font-size: 1rem;
     text-align: left;
     font-style: italic;
     font-weight: bold;
