@@ -186,16 +186,12 @@
 
 <div class="container">
 
+  <p class="hello">
+    Hello!
+  </p>
+
   <p class="bio">
-    Data scientist with international experience leading complex 
-    machine learning initiatives, from infrastructure to modeling. 
-    Full-remote worker. Mensa member.
-
-    Avid reader, average chess player, mediocre pianist, terrible bassist,
-     awful electronic music composer, and wannabe professional sleeper.
-
-    Former academic researcher on misinformation in online social networks:
-    <a href="https://scholar.google.com/citations?user=4QiUu3AAAAAJ&hl=en">Google Scholar</a> 
+    Nice to e-meet you :)
   </p>
 
   {#if !puzzleSolved}
@@ -304,10 +300,16 @@
     margin: 10px;
   }
 
+  .hello {
+    max-width: 400px;
+    font-size: 1rem;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+  }
+
   .bio {
     max-width: 400px;
-    background-color: #fefae0;
-    border: 2px solid #f892c5;
     padding: 1em;
     font-size: 0.8rem;
     color: #2c2c2c;
