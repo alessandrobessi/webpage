@@ -289,7 +289,7 @@
   }
 
   .puzzle-message {
-    max-width: 400px;
+    max-width: 380px;
     background-color: #fefae0;
     border: 2px solid #f892c5;
     padding: 1em;
